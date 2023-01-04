@@ -22,14 +22,30 @@ const About = () => {
               <FaAward className='about__icon'/>
               <h5>Passion</h5>
               <small>Attended 4 Hackathons over 5 months</small>
-
-
+            </article>
+            <article className='about__card'>
+              <FaAward className='about__icon'/>
+              <h5>Passion</h5> 
+              <small>Attended 4 Hackathons over 5 months</small>
+            </article>
+            <article className='about__card'>
+              <FaAward className='about__icon'/>
+              <h5>Passion</h5>
+              <small>Attended 4 Hackathons over 5 months</small>
             </article>
           </div>
+
+          <p>
+            filler text yyyyeeeeaaaaaayyyyyyy
+          </p>
+
+          <a href="#contact" className='btn btn-primary'>Let's Talk</a>
         </div>
       </div>
     </section>
   )
 }
 
-export default About
+export default About 
+
+// need to change the articles' contents and their icons
