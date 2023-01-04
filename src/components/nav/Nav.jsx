@@ -5,15 +5,17 @@ import {AiOutlineUser} from 'react-icons/ai'
 import {BiBook} from 'react-icons/bi'
 import {AiFillFolderOpen} from 'react-icons/ai'
 import {BiMessageSquareAdd} from 'react-icons/bi'
+import {useState} from 'react'
 
 const Nav = () => {
+  const [activeNav, setActiveNav] = useState('#')
   return (
     <nav>
-      <a href="#"><AiOutlineHome/></a>
-      <a href="#about"><AiOutlineUser/></a>
-      <a href="#experience"><BiBook/></a>
-      <a href="#portfolio"><AiFillFolderOpen/></a>
-      <a href="#contact"><BiMessageSquareAdd/></a>
+      <a href="#" onClick={() => setActiveNav('#')} className={activeNav === '#' ? 'active' : ''}><AiOutlineHome/></a>
+      <a href="#about" onClick={() => setActiveNav('#about')} className={activeNav === '#about' ? 'active' : ''}><AiOutlineUser/></a>
+      <a href="#experience" onClick={() => setActiveNav('#experience')} className={activeNav === '#experience' ? 'active' : ''}><BiBook/></a>
+      <a href="#portfolio" onClick={() => setActiveNav('#portfolio')} className={activeNav === '#portfolio' ? 'active' : ''}><AiFillFolderOpen/></a>
+      <a href="#contact" onClick={() => setActiveNav('#contact')} className={activeNav === '#contact' ? 'active' : ''}><BiMessageSquareAdd/></a>
     </nav>
   )
 }
