@@ -3,6 +3,27 @@ import './portfolio.css'
 import SIGNL from '../../assets/signl.png'
 import CRUMB from '../../assets/hereicrumb.png'
 
+const data = [
+  {
+    id: 1,
+    image: SIGNL,
+    title: 'SiGnL: Sign Language Communicator for Video Calls',
+    github: 'https://github.com/reebxu459/htn-proj22',
+    demo: 'https://devpost.com/software/signl'
+  },
+
+  {
+    id: 2,
+    image: CRUMB,
+    title: 'Here I Crumb: French Helper Chrome Extension',
+    github: 'https://github.com/yimango/ht6-2022-project',
+    demo: 'https://devpost.com/software/bready-or-not-here-i-crumb'
+  }
+]
+
+
+
+
 const Portfolio = () => {
   return (
     <section id='portfolio'>
@@ -10,25 +31,22 @@ const Portfolio = () => {
       <h2>My Portfolio</h2>
 
       <div className="container portfolio__container">
-        <article className='portfolio__item'>
-          <div className="portfolio__item-image">
-            <img src={SIGNL} alt="SiGnL" />
-          </div>
-          <h3>SiGnL</h3>
-          <a href="https://github.com/reebxu459/htn-proj22" className='btn' target='_blank'>Github</a>
-          <a href="https://devpost.com/software/signl" className='btn btn-primary' target='_blank'>Devpost</a>
-        </article>
-
-        <article className='portfolio__item'>
-          <div className="portfolio__item-image">
-            <img src={CRUMB} alt="Here I Crumb!" />
-          </div>
-          <h3>Here I Crumb!</h3>
-          <a href="https://github.com/yimango/ht6-2022-project" className='btn' target='_blank'>Github</a>
-          <a href="https://devpost.com/software/bready-or-not-here-i-crumb" className='btn btn-primary' target='_blank'>Devpost</a>
-
-        </article>
-
+        {
+          data.map(({id, image, title, github, demo}) => {
+            return (
+              <article key={id} className='portfolio__item'>
+                <div className="portfolio__item-image">
+                  <img src={image} alt={title} />
+                </div>
+                <h3>{title}</h3>
+                <div className="portfolio__item-cta">
+                  <a href={github} className='btn' target='_blank'>Github</a>
+                  <a href={demo} className='btn btn-primary' target='_blank'>Devpost</a>
+                </div>
+              </article>
+            )
+          })
+        }
       </div>
     </section>
   )

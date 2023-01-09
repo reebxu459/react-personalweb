@@ -1,6 +1,6 @@
 import React from 'react'
 import './about.css'
-import ME from '../../assets/letterA.jpeg' // make sure to change
+import ME from '../../assets/me.JPG' // make sure to change
 import {FaAward} from 'react-icons/fa'
 
 const About = () => {
