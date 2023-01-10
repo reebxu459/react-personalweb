@@ -12,13 +12,13 @@ const Contact = () => {
       <div className="container contact__container">
         <div className="contact__options">
           <article className="contact__option">
-            <MdOutlineEmail/>
+            <MdOutlineEmail className='contact__option-icon'/>
             <h4>Email</h4>
             <h5>r25xu@uwaterloo.ca</h5>
             <a href="mailto:r25xu@uwaterloo.ca">Send a message</a>
           </article>
           <article className="contact__option">
-            <AiFillMessage/>
+            <AiFillMessage className='contact__option-icon'/>
             <h4>Message</h4>
             <h5>(+1)647-303-3508</h5>
           </article>

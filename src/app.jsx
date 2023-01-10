@@ -14,23 +14,10 @@ const app = () => {
   return (
     <>
         <Header />
-        <div>
-          <Parallax pages={4}>
-            <ParallaxLayer>
-              <h2>hehe</h2>
-            </ParallaxLayer>
-            <ParallaxLayer offset={1} speed={0.5}>
-              <h2>Yeehaw</h2>
-            </ParallaxLayer>
-
-          </Parallax>
-        </div>
         <Nav />
         <About />
         <Experience />
-        <Services />
         <Portfolio />
-        <Testimonials />
         <Contact />
         <Footer />
     </>

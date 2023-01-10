@@ -26,6 +26,7 @@ const Header = () => {
             'I am a Computer Science student at UWaterloo.',
             'I am searching for a summer co-op.',
             'I work in both UI/UX.',
+            "I use technology to improve accessibility",
             'I am a national badminton player.',
             'I have a sunny personality',
             'Technology empowers people do be creative.',
