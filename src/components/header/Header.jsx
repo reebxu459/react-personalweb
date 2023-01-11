@@ -12,7 +12,7 @@ const Header = () => {
   return (
     <header>
       <div className="container header__container">
-        <h5>Hello, I'm</h5>
+        <h4>Hello, I'm</h4>
         <h1>Rebecca.</h1>
         <div className="typewriter">
           <TypeWriterEffect
