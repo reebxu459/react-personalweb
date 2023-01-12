@@ -3,6 +3,7 @@ import './portfolio.css'
 import SIGNL from '../../assets/signl.png'
 import CRUMB from '../../assets/hereicrumb.png'
 
+
 const data = [
   {
     id: 1,
@@ -20,9 +21,6 @@ const data = [
     demo: 'https://devpost.com/software/bready-or-not-here-i-crumb'
   }
 ]
-
-
-
 
 const Portfolio = () => {
   return (

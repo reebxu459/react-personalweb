@@ -70,7 +70,7 @@ h1 {
 
 section {
     margin-top: 50rem;
-    height: 60vh;
+    height: 1vh;
 }
 
 section > h2, section > h5 {
@@ -141,7 +141,7 @@ img {
         width: var(--container-width-sm);
     }
 
-    section > h2{
+    section {
         margin-top: 50rem;
     }
 }
