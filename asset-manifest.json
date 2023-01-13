@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/react-personalweb/static/css/main.9a12bf2b.css",
-    "main.js": "/react-personalweb/static/js/main.b034bd73.js",
-    "static/media/ombrebg.png": "/react-personalweb/static/media/ombrebg.845ed84651c47961ce57.png",
-    "static/media/signl.png": "/react-personalweb/static/media/signl.dc37ec019d05aca232b8.png",
-    "static/media/headbg.png": "/react-personalweb/static/media/headbg.d6c48db3779a3debc609.png",
-    "static/media/me.JPG": "/react-personalweb/static/media/me.42be8f1529dc02865b72.JPG",
-    "static/media/me3.png": "/react-personalweb/static/media/me3.0562f4e3a738881a6872.png",
-    "static/media/RebeccaResume.pdf": "/react-personalweb/static/media/RebeccaResume.f6a58e6ce4dc32d70d21.pdf",
-    "static/media/hereicrumb.png": "/react-personalweb/static/media/hereicrumb.7386f3e0022a9a2c2c1d.png",
-    "index.html": "/react-personalweb/index.html",
-    "main.9a12bf2b.css.map": "/react-personalweb/static/css/main.9a12bf2b.css.map",
-    "main.b034bd73.js.map": "/react-personalweb/static/js/main.b034bd73.js.map"
+    "main.css": "/static/css/main.3a79c84c.css",
+    "main.js": "/static/js/main.446a4ca9.js",
+    "static/media/ombrebg.png": "/static/media/ombrebg.845ed84651c47961ce57.png",
+    "static/media/signl.png": "/static/media/signl.dc37ec019d05aca232b8.png",
+    "static/media/headbg.png": "/static/media/headbg.d6c48db3779a3debc609.png",
+    "static/media/me.JPG": "/static/media/me.42be8f1529dc02865b72.JPG",
+    "static/media/me3.png": "/static/media/me3.0562f4e3a738881a6872.png",
+    "static/media/RebeccaResume.pdf": "/static/media/RebeccaResume.f6a58e6ce4dc32d70d21.pdf",
+    "static/media/hereicrumb.png": "/static/media/hereicrumb.7386f3e0022a9a2c2c1d.png",
+    "index.html": "/index.html",
+    "main.3a79c84c.css.map": "/static/css/main.3a79c84c.css.map",
+    "main.446a4ca9.js.map": "/static/js/main.446a4ca9.js.map"
   },
   "entrypoints": [
-    "static/css/main.9a12bf2b.css",
-    "static/js/main.b034bd73.js"
+    "static/css/main.3a79c84c.css",
+    "static/js/main.446a4ca9.js"
   ]
 }
