@@ -3,11 +3,9 @@ import './footer.css'
 
 const Footer = () => {
   return (
-    
-    <div className="container footer__container">
-      
-      
-    </div>
+    <section id='footer'>
+      <div className="container footer__container">banana</div>
+    </section>
   )
 }
 

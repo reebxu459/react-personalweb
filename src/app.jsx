@@ -31,10 +31,11 @@ const app = () => {
       <article >
         <Contact />
       </article>
+    </div>
       <article>
         <Footer />
       </article>
-    </div>
+ 
         
     </>
   )
