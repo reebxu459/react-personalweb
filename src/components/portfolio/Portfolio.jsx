@@ -2,13 +2,14 @@ import React from 'react'
 import './portfolio.css'
 import SIGNL from '../../assets/signl.png'
 import CRUMB from '../../assets/hereicrumb.png'
+import SENTI from '../../assets/sentiview.png'
 
 
 const data = [
   {
     id: 1,
     image: SIGNL,
-    title: 'SiGnL: Sign Language Communicator for Video Calls',
+    title: 'SiGnL: ML Sign Language Communicator for Video Calls',
     github: 'https://github.com/reebxu459/htn-proj22',
     demo: 'https://devpost.com/software/signl'
   },
@@ -19,6 +20,14 @@ const data = [
     title: 'Here I Crumb: French Helper Chrome Extension',
     github: 'https://github.com/yimango/ht6-2022-project',
     demo: 'https://devpost.com/software/bready-or-not-here-i-crumb'
+  },
+
+  {
+    id: 3,
+    image: SENTI,
+    title: 'SentiView: ML Customer Review Sentiment Analysis Tool',
+    github: 'https://github.com/Peterson120/SentiView',
+    demo: 'https://devpost.com/software/wink-wonk'
   }
 ]
 
