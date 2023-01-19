@@ -30,8 +30,8 @@ const About = () => {
             </article>
             <article className='about__card'>
               <FaAward className='about__icon'/>
-              <h5>Passion</h5>
-              <small>Attended 4 Hackathons over 5 months</small>
+              <h5>Self-Made</h5>
+              <small>Learned everything about I know about coding myself</small>
             </article>
           </div>
 

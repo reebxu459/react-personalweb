@@ -1,4 +1,6 @@
 .footer__container {
     height: 5vh; 
     margin-left: 20px;
+    background-image:none;
+    background-color: var(--color-bg-variant);
 }
