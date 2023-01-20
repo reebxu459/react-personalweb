@@ -3,6 +3,7 @@ import './portfolio.css'
 import SIGNL from '../../assets/signl.png'
 import CRUMB from '../../assets/hereicrumb.png'
 import SENTI from '../../assets/sentiview.png'
+import WEBPHOTO from '../../assets/webphoto.png'
 
 
 const data = [
@@ -28,9 +29,7 @@ const data = [
     title: 'Here I Crumb: French Helper Chrome Extension',
     github: 'https://github.com/yimango/ht6-2022-project',
     demo: 'https://devpost.com/software/bready-or-not-here-i-crumb'
-  }
-
-  
+  },
 ]
 
 const Portfolio = () => {
