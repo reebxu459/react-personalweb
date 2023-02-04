@@ -1,20 +1,22 @@
 {
   "files": {
-    "main.css": "/react-personalweb/static/css/main.9a12bf2b.css",
-    "main.js": "/react-personalweb/static/js/main.b034bd73.js",
-    "static/media/ombrebg.png": "/react-personalweb/static/media/ombrebg.845ed84651c47961ce57.png",
+    "main.css": "/react-personalweb/static/css/main.5e48e2a4.css",
+    "main.js": "/react-personalweb/static/js/main.cef0e9f0.js",
+    "static/media/ombre4.png": "/react-personalweb/static/media/ombre4.01ca599a0da9eba9fabe.png",
     "static/media/signl.png": "/react-personalweb/static/media/signl.dc37ec019d05aca232b8.png",
     "static/media/headbg.png": "/react-personalweb/static/media/headbg.d6c48db3779a3debc609.png",
+    "static/media/webphoto.png": "/react-personalweb/static/media/webphoto.de976524b25a35a6b988.png",
+    "static/media/sentiview.png": "/react-personalweb/static/media/sentiview.8111332a88ee94031982.png",
     "static/media/me.JPG": "/react-personalweb/static/media/me.42be8f1529dc02865b72.JPG",
     "static/media/me3.png": "/react-personalweb/static/media/me3.0562f4e3a738881a6872.png",
-    "static/media/RebeccaResume.pdf": "/react-personalweb/static/media/RebeccaResume.f6a58e6ce4dc32d70d21.pdf",
+    "static/media/RebeccaResume.pdf": "/react-personalweb/static/media/RebeccaResume.3e095f5373cc7559d32e.pdf",
     "static/media/hereicrumb.png": "/react-personalweb/static/media/hereicrumb.7386f3e0022a9a2c2c1d.png",
     "index.html": "/react-personalweb/index.html",
-    "main.9a12bf2b.css.map": "/react-personalweb/static/css/main.9a12bf2b.css.map",
-    "main.b034bd73.js.map": "/react-personalweb/static/js/main.b034bd73.js.map"
+    "main.5e48e2a4.css.map": "/react-personalweb/static/css/main.5e48e2a4.css.map",
+    "main.cef0e9f0.js.map": "/react-personalweb/static/js/main.cef0e9f0.js.map"
   },
   "entrypoints": [
-    "static/css/main.9a12bf2b.css",
-    "static/js/main.b034bd73.js"
+    "static/css/main.5e48e2a4.css",
+    "static/js/main.cef0e9f0.js"
   ]
 }
