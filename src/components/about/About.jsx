@@ -36,7 +36,10 @@ const About = () => {
           </div>
 
           <p>
-            filler text yyyyeeeeaaaaaayyyyyyy
+            I love analogies. An analogy I would use to describe myself would be 'toast' because I 
+            because I like to be plain and simple, but am a solid foundation in any team of romaine lettuce,
+            turkey ham, raspberry jam-- just any ingredient that works well on toast. Also, I like
+            toast.
           </p>
 
           <a href="#contact" className='btn btn-primary'>Let's Talk</a>
