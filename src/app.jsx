@@ -35,7 +35,6 @@ const app = () => {
         <Footer />
       </article>
       </div>
- 
         
     </>
   )

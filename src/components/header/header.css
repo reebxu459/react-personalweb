@@ -2,19 +2,24 @@ header {
     height: 110vh;
     padding-top: 7rem;
     overflow: hidden;
+    padding-left: 30vh;
+    padding-right: 30vh;
+}
 
+h4 {
+    text-shadow: 0.5px 0.5px #fff;
 }
 
 .header__container {
-    text-align: center;
+    text-align: left;
     height: 100%;
     position: relative;
     text-shadow: 0.5px 0.5px #000000;
+    line-height: 2;
 }
 
 .typewriter {
-    justify-content: center;
-    display: flex;
+    justify-content: left;
     text-shadow: 0.5px 0.5px #000000;
 }
 
@@ -25,6 +30,10 @@ header {
     gap: 1.2rem;
     justify-content: center;
     text-shadow: 0px 0px #000000;
+}
+
+a.btn.btn-primary {
+    background-color: #fff;
 }
 
 /* ======== HEADER SOCIALS =============== */
