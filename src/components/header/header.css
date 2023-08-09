@@ -1,9 +1,9 @@
 header {
-    height: 110vh;
+    height: 100vh;
     padding-top: 7rem;
     overflow: hidden;
-    padding-left: 30vh;
-    padding-right: 30vh;
+    padding-left: 20vh;
+    padding-right: 20vh;
 }
 
 h4 {
@@ -20,7 +20,7 @@ h4 {
 
 .typewriter {
     justify-content: left;
-    text-shadow: 0.5px 0.5px #000000;
+    text-shadow: 0.5px 0.5px #000;
 }
 
 /* ======== CTA =============== */
@@ -29,7 +29,7 @@ h4 {
     display: flex;
     gap: 1.2rem;
     justify-content: center;
-    text-shadow: 0px 0px #000000;
+    text-shadow: 0px 0px #000;
 }
 
 a.btn.btn-primary {
@@ -41,20 +41,21 @@ a.btn.btn-primary {
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 0.8rem;
+    gap: 0.4rem;
     position: absolute;
     right: 0;
-    top: -5rem;
-    border-color: var(--color-white);
+    top: 0rem;
     font-size: 3rem;
+    margin-left: 5000rem;
 }
 
-.header__socials::after {
+/* .header__socials::after {
     content:'';
     width: 1px;
     height: 3rem;
-    background: var(--color-white);
-}
+    background: #000;
+} */
+
 
 /* ======== ME =============== */
 .me {
@@ -77,6 +78,43 @@ a.btn.btn-primary {
     transform: rotate(90deg);
     font-weight: 300;
     font-size: 0.9rem;
+}
+
+/* =========FONT STYLES=============*/
+.ingredients {
+    font-weight: 200;
+}
+
+span.light_purple {
+    color: #da76ff;
+}
+
+span.pink {
+    color: #ffbadc;
+}
+
+span.light_blue {
+    color: #5bb2ff;
+}
+
+span.grey {
+    color: #848297;
+}
+
+span.light_green {
+    color: #2bbb51;
+}
+
+span.brown {
+    color: #716565;
+}
+
+span.red {
+    color: #ce5e5e;
+}
+
+span.orange {
+    color: #ffb95e;
 }
 
 /* ======= MEDIA QUERIES (MEDIUM DEVICES) ===========*/

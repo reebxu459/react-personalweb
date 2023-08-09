@@ -13,14 +13,20 @@ const Header = () => {
     <header>
       <div className="container header__container">
         <h1>Hello, I'm Rebecca.</h1>
-        <h4>
-          I'm a CS Student at the University of Waterloo and software developer.
-          
-        </h4>
+        <h4>I'm a CS Student at the University of Waterloo and software developer.</h4>
+        <br />
+        <h4>The most popular ingredients for my creations may include:</h4>
+        <h4><b><span className='light_purple'>Python</span> + <span className='light_blue'>React.js</span>
+        &nbsp;+ <span className='grey'>SQL</span> + <span className='pink'>AWS</span> + <span className='light_green'>C/C++</span></b></h4>
+        <br />
+        <h4>...But I've indulged in these as well:</h4>
+        <h4><b><span className='red'>Tensorflow</span> + <span className='brown'>Tailwind</span>
+        &nbsp;+ <span className='orange'>Flask</span> </b></h4>
+        <br />
         <div className="typewriter">
           <TypeWriterEffect
           textStyle={{
-            fontSize: '1.5em',
+            fontSize: '1.5rem',
             
           }}
           startDelay={2000}
@@ -28,7 +34,7 @@ const Header = () => {
           multiText={[
             'I am a national badminton player.',
             'I have a sunny personality',
-            'Technology empowers people do be creative.',
+            'Technology empowers people to be creative.',
             'I am here to put a dent in the universe.'
           ]}
           multiTextDelay={3000}
