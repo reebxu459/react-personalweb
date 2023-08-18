@@ -126,14 +126,28 @@ Header {
     height: 70rem;
 }
 
+#portfolio {
+    margin-top: 10rem;
+    height: 150vh;
+    padding-left: 20vh;
+    padding-right: 20vh;
+}
+
 #about {
     margin-top: 10rem;
     height: 100vh;
+    padding-left: 30vh;
+    padding-right: 30vh;
 }
 
 #experience {
-    height: 100vh;
+    margin-top: 10rem;
+    height: 150vh;
+    padding-left: 20vh;
+    padding-right: 20vh;
 }
+
+
 
 /* ============ MEDIA QUERIES (MEDIUM DEVICES LIKE TABLETS) ======*/
 @media screen and (max-width: 1024px) {
