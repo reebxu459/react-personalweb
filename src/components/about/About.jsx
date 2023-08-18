@@ -8,41 +8,42 @@ const About = () => {
     <section id='about'>
       <h2>About Me</h2>
 
-      <div className="container about__container">
-        <div className="about__me">
-          <div className="about__me-image">
-            <img src={ME} alt="About Image" />
+      <div class="timeline">
+        <div class="container right">
+          <div class="content">
+            <h2>2017</h2>
+            <p>hi</p>
           </div>
-
         </div>
-
-        <div className="about__content">
-          <div className="about__cards">
-            <article className='about__card'>
-              <FaAward className='about__icon'/>
-              <h5>Passionate</h5>
-              <small>Attended 4 Hackathons over 5 months</small>
-            </article>
-            <article className='about__card'>
-              <FaAward className='about__icon'/>
-              <h5>Humorous</h5> 
-              <small>A spider is the only web developer that likes bugs</small>
-            </article>
-            <article className='about__card'>
-              <FaAward className='about__icon'/>
-              <h5>Self-Made</h5>
-              <small>Learned everything about I know about coding myself</small>
-            </article>
+        <div class="container right">
+          <div class="content">
+            <h2>2016</h2>
+            <p>hi</p>
           </div>
-
-          <p>
-            I love analogies. An analogy I would use to describe myself would be 'toast' because I 
-            because I like to be plain and simple, but am a solid foundation in any team of romaine lettuce,
-            turkey ham, raspberry jam-- just any ingredient that works well on toast. Also, I like
-            toast.
-          </p>
-
-          <a href="#contact" className='btn btn-primary'>Let's Talk</a>
+        </div>
+        <div class="container right">
+          <div class="content">
+            <h2>2015</h2>
+            <p>hi</p>
+          </div>
+        </div>
+        <div class="container right">
+          <div class="content">
+            <h2>2012</h2>
+            <p>hi</p>
+          </div>
+        </div>
+        <div class="container right">
+          <div class="content">
+            <h2>2011</h2>
+            <p>hi</p>
+          </div>
+        </div>
+        <div class="container right">
+          <div class="content">
+            <h2>2007</h2>
+            <p>hi</p>
+          </div>
         </div>
       </div>
     </section>

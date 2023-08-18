@@ -67,7 +67,7 @@ h1 {
 }
 
 section {
-    margin-top: 50rem;
+    margin-top: 5rem;
     height: 1vh;
 }
 
@@ -86,7 +86,7 @@ section > h2 {
 }
 
 a {
-    color: var(--color-white);
+    color: #000;
     transition: var(--transition);
 }
 
@@ -120,6 +120,19 @@ img {
     display: block;
     width: 100%;
     object-fit: cover;
+}
+
+Header {
+    height: 70rem;
+}
+
+#about {
+    margin-top: 10rem;
+    height: 100vh;
+}
+
+#experience {
+    height: 100vh;
 }
 
 /* ============ MEDIA QUERIES (MEDIUM DEVICES LIKE TABLETS) ======*/

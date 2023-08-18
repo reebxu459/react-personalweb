@@ -15,27 +15,12 @@ const app = () => {
   return (
     <>
       <Header />
-    <div className="web__container">
-      <article>
-        <Nav />
-      </article>
-      <article>
-        <About />
-      </article>
-      <article>
-        <Experience />
-      </article>
-      <article>
-        <Portfolio />
-      </article>
-      <article >
-        <Contact />
-      </article>
-      <article>
-        <Footer />
-      </article>
-      </div>
-        
+      <About />
+      <Experience />
+      <Portfolio />
+      <Contact />
+      <Footer />
+      <Nav />
     </>
   )
 }
