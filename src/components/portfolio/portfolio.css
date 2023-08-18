@@ -1,11 +1,12 @@
 .portfolio__container {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(1, 1fr);
     gap: 2.5rem;
 }
 
 .portfolio__item {
-    background: var(--color-bg-variant);
+    background: white;
+    filter: drop-shadow(0 0 0.75rem rgb(229, 132, 151));
     padding: 1.3rem;
     border-radius: 2rem;
     border: 1px solid transparent;
@@ -13,7 +14,7 @@
 }
 
 .portfolio__item:hover {
-    border-color: var(--color-primary-variant);
+    border-color: rgb(229, 132, 151);
     background: transparent;
 }
 
