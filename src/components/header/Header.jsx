@@ -2,6 +2,7 @@ import React from 'react'
 import './header.css'
 import CTA from './CTA'
 import ME from '../../assets/avatar.png'
+import SOUP from '../../assets/soup.gif'
 import HeaderSocial from './HeaderSocials'
 import Typed from "typed.js"
 import { useEffect, useRef } from "react";
@@ -19,13 +20,15 @@ const Header = () => {
             <h4>I'm a CS Student at the University of Waterloo and software developer.</h4>
           </div>
         </div>
+        {/* <img src={SOUP} alt="soup" /> */}
+        <br />
         <br />
         <h4>The most popular ingredients for my creations may include:</h4>
         <h4><b><span className='light_purple'>Python</span> + <span className='light_blue'>React.js</span>
         &nbsp;+ <span className='grey'>SQL</span> + <span className='pink'>AWS</span> + <span className='light_green'>C/C++</span></b></h4>
         <br />
         <h4>... But I've indulged in these as well:</h4>
-        <h4><b><span className='red'>Tensorflow</span> + <span className='brown'>Tailwind</span>
+        <h4><b><span className='red'>Pandas</span> + <span className='brown'>Tailwind</span>
         &nbsp;+ <span className='orange'>Flask</span> </b></h4>
         <br />
         <div className="typewriter">
