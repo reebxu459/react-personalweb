@@ -1,7 +1,7 @@
 import React from 'react'
 import './header.css'
 import CTA from './CTA'
-import ME from '../../assets/me3.png'
+import ME from '../../assets/avatar.png'
 import HeaderSocial from './HeaderSocials'
 import Typed from "typed.js"
 import { useEffect, useRef } from "react";
@@ -12,14 +12,19 @@ const Header = () => {
   return (
     <header>
       <div className="container header__container">
-        <h1>Hello, I'm Rebecca.</h1>
-        <h4>I'm a CS Student at the University of Waterloo and software developer.</h4>
+        <div className="top">
+          <img src={ME} alt="me" />
+          <div className="textpart">
+            <h1>Hello, I'm Rebecca.</h1>
+            <h4>I'm a CS Student at the University of Waterloo and software developer.</h4>
+          </div>
+        </div>
         <br />
         <h4>The most popular ingredients for my creations may include:</h4>
         <h4><b><span className='light_purple'>Python</span> + <span className='light_blue'>React.js</span>
         &nbsp;+ <span className='grey'>SQL</span> + <span className='pink'>AWS</span> + <span className='light_green'>C/C++</span></b></h4>
         <br />
-        <h4>...But I've indulged in these as well:</h4>
+        <h4>... But I've indulged in these as well:</h4>
         <h4><b><span className='red'>Tensorflow</span> + <span className='brown'>Tailwind</span>
         &nbsp;+ <span className='orange'>Flask</span> </b></h4>
         <br />
@@ -42,11 +47,9 @@ const Header = () => {
           />
         </div>
         <CTA />
-        <HeaderSocial />
+        {/* <HeaderSocial /> */}
         <div className="me">
-            <img src={ME} alt="me" />
             </div>
-            <a href="#contact" className='scroll__down'>Scroll Down</a>
             </div>
             </header>
             )

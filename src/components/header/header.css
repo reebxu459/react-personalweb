@@ -56,20 +56,6 @@ a.btn.btn-primary {
     background: #000;
 } */
 
-
-/* ======== ME =============== */
-.me {
-    /*background: linear-gradient(var(--color-primary), transparent);*/
-    width: 22rem;
-    height: 30rem;
-    position: absolute;
-    left: calc(50% - 11rem);
-    margin-top: 0rem;
-    /*border-radius: 12rem 12rem 0 0; /* top left, top right, bottom right, bottom left*/
-    overflow: hidden;
-    padding: 5rem 1.5rem 1.5rem 1.5rem;
-}
-
 /* ==========SCROLL DOWN============*/
 .scroll__down {
     position: absolute;
@@ -78,6 +64,19 @@ a.btn.btn-primary {
     transform: rotate(90deg);
     font-weight: 300;
     font-size: 0.9rem;
+}
+
+.top {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1.5rem;
+    max-width: 50vw;
+    margin-inline-start: auto;
+    margin-inline-end: auto;
+    .textpart {
+        padding-right: 1rem;
+    };
 }
 
 /* =========FONT STYLES=============*/

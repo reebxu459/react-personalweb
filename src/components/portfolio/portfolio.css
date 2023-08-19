@@ -16,6 +16,7 @@
 .portfolio__item:hover {
     border-color: rgb(229, 132, 151);
     background: transparent;
+    filter: drop-shadow(0 0 0.75rem white);
 }
 
 .portfolio__item-image {

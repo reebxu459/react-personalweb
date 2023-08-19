@@ -15,12 +15,12 @@ const app = () => {
   return (
     <>
       <Header />
-      <Portfolio />
       <Experience />
+      <Portfolio />
       <About />
       <Contact />
       <Footer />
-      <Nav />
+      {/* <Nav /> */}
     </>
   )
 }
