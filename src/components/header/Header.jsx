@@ -1,7 +1,7 @@
 import React from 'react'
 import './header.css'
 import CTA from './CTA'
-import ME from '../../assets/avatar.png'
+import ME from '../../assets/favicon.png'
 import SOUP from '../../assets/soup.gif'
 import HeaderSocial from './HeaderSocials'
 import Typed from "typed.js"
@@ -17,21 +17,21 @@ const Header = () => {
           <img src={ME} alt="me" />
           <div className="textpart">
             <h1>Hello, I'm Rebecca.</h1>
-            <h4>I'm a CS Student at the University of Waterloo and software developer.</h4>
+            <h3>I'm a CS Student at the University of Waterloo and software developer.</h3>
           </div>
         </div>
         {/* <img src={SOUP} alt="soup" /> */}
         <br />
         <br />
-        <h4>The most popular ingredients for my creations may include:</h4>
-        <h4><b><span className='light_purple'>Python</span> + <span className='light_blue'>React.js</span>
-        &nbsp;+ <span className='grey'>SQL</span> + <span className='pink'>AWS</span> + <span className='light_green'>C/C++</span></b></h4>
+        <h3>The most popular ingredients for my creations may include:</h3>
+        <h3><b><span className='light_purple'>Python</span> + <span className='light_blue'>React.js</span>
+        &nbsp;+ <span className='grey'>SQL</span> + <span className='pink'>AWS</span> + <span className='light_green'>C/C++</span></b></h3>
         <br />
-        <h4>... But I've indulged in these as well:</h4>
-        <h4><b><span className='red'>Pandas</span> + <span className='brown'>Tailwind</span>
-        &nbsp;+ <span className='orange'>Flask</span> </b></h4>
+        <h3>... But I've indulged in these as well:</h3>
+        <h3><b><span className='red'>Pandas</span> + <span className='brown'>Tailwind</span>
+        &nbsp;+ <span className='orange'>Flask</span> </b></h3>
         <br />
-        <div className="typewriter">
+        {/* <div className="typewriter">
           <TypeWriterEffect
           textStyle={{
             fontSize: '1.5rem',
@@ -48,8 +48,8 @@ const Header = () => {
           multiTextDelay={3000}
           typeSpeed={50}
           />
-        </div>
-        <CTA />
+        </div> */}
+        {/* <CTA /> */}
         {/* <HeaderSocial /> */}
         <div className="me">
             </div>
