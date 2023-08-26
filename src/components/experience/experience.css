@@ -2,8 +2,24 @@
     display: grid;
     grid-gap: clamp(4px, calc(-5.09px + 2.42vw), 24px);
     grid-template-columns: repeat(4, 1fr);
+    text-align: left;
+    margin-bottom: 20px;
 }
 
+.content {
+    grid-column: span 3/span 3;
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+.content h3 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.dates {
+    text-align: left;
+}
 
 
 /* ============ MEDIA QUERIES (MEDIUM DEVICES LIKE TABLETS) ======*/
@@ -19,7 +35,7 @@
     }
 
     .experience__content {
-        padding: 1rem;
+        padding: 20px;
     }
 }
 
@@ -36,6 +52,6 @@
     }
 
     .experience__content {
-        padding: 1rem;
+        padding: 20px;
     }
 }
