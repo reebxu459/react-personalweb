@@ -75,6 +75,7 @@ h1 {
 
 h2 {
     color: white;
+    font-weight: 300;
 }
 
 h3 {
@@ -97,12 +98,12 @@ section > h2 {
 }
 
 a {
-    color: pink;
+    color: white;
     transition: var(--transition);
 }
 
 a:hover {
-    color: var(--color-white);
+    color: rgb(255, 138, 138);
 }
 
 .btn {
@@ -134,48 +135,17 @@ img {
 }
 
 Header {
-    height: 30rem;
-}
-
-#portfolio {
-    margin-top: 10rem;
-    height: 350vh;
-    padding-left: 20vh;
-    padding-right: 20vh;
-}
-
-#about {
-    margin-top: 10rem;
-    height: 100vh;
+    height: 38rem;
 }
 
 #experience {
     margin-top: 10rem;
-    height: 150vh;
+    height: 94rem;
     margin: 0px 87.5px;
 }
 
-
-
-/* ============ MEDIA QUERIES (MEDIUM DEVICES LIKE TABLETS) ======*/
-@media screen and (max-width: 1024px) {
-    .container {
-        width: var(--container-width-md);
-    }
-
-    section {
-        margin-top: 70rem;
-    }
+#footer {
+    margin-top: 10rem;
+    height: 30rem;
+    margin: 0px 87.5px;
 }
-
-/* ============ MEDIA QUERIES (SMALL DEVICES LIKE TABLETS) ======*/
-@media screen and (max-width: 600px) {
-    .container {
-        width: var(--container-width-sm);
-    }
-
-    section {
-        margin-top: 80rem;
-    }
-}
-

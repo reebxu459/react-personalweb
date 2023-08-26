@@ -17,6 +17,7 @@ const Header = () => {
           <img src={ME} alt="me" />
           <div className="textpart">
             <h1>Hello, I'm Rebecca.</h1>
+            <br />
             <h3>I'm a CS Student at the University of Waterloo and software developer.</h3>
           </div>
         </div>
