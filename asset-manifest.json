@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/react-personalweb/static/css/main.35281ecf.css",
+    "main.css": "/react-personalweb/static/css/main.b517e429.css",
     "main.js": "/react-personalweb/static/js/main.294693b7.js",
     "static/media/signl.png": "/react-personalweb/static/media/signl.dc37ec019d05aca232b8.png",
     "static/media/webphoto.png": "/react-personalweb/static/media/webphoto.de976524b25a35a6b988.png",
@@ -9,11 +9,11 @@
     "static/media/RebeccaResume.pdf": "/react-personalweb/static/media/RebeccaResume.3e095f5373cc7559d32e.pdf",
     "static/media/soup.gif": "/react-personalweb/static/media/soup.6e9507b86511713dd747.gif",
     "index.html": "/react-personalweb/index.html",
-    "main.35281ecf.css.map": "/react-personalweb/static/css/main.35281ecf.css.map",
+    "main.b517e429.css.map": "/react-personalweb/static/css/main.b517e429.css.map",
     "main.294693b7.js.map": "/react-personalweb/static/js/main.294693b7.js.map"
   },
   "entrypoints": [
-    "static/css/main.35281ecf.css",
+    "static/css/main.b517e429.css",
     "static/js/main.294693b7.js"
   ]
 }
