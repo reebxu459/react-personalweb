@@ -12,6 +12,14 @@
     margin-bottom: 20px;
 }
 
+.content img {
+    display: inline;
+    width: 60px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+
+}
+
 .content h3 {
     margin-top: 10px;
     margin-bottom: 10px;
