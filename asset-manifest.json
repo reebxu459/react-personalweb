@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/react-personalweb/static/css/main.b517e429.css",
-    "main.js": "/react-personalweb/static/js/main.294693b7.js",
-    "static/media/signl.png": "/react-personalweb/static/media/signl.dc37ec019d05aca232b8.png",
-    "static/media/webphoto.png": "/react-personalweb/static/media/webphoto.de976524b25a35a6b988.png",
-    "static/media/hereicrumb.png": "/react-personalweb/static/media/hereicrumb.b019c1f9568d5e16b81e.png",
-    "static/media/me.JPG": "/react-personalweb/static/media/me.42be8f1529dc02865b72.JPG",
-    "static/media/RebeccaResume.pdf": "/react-personalweb/static/media/RebeccaResume.3e095f5373cc7559d32e.pdf",
-    "static/media/soup.gif": "/react-personalweb/static/media/soup.6e9507b86511713dd747.gif",
-    "index.html": "/react-personalweb/index.html",
-    "main.b517e429.css.map": "/react-personalweb/static/css/main.b517e429.css.map",
-    "main.294693b7.js.map": "/react-personalweb/static/js/main.294693b7.js.map"
+    "main.css": "/reebxu459.github.io/static/css/main.b517e429.css",
+    "main.js": "/reebxu459.github.io/static/js/main.f7185ab1.js",
+    "static/media/signl.png": "/reebxu459.github.io/static/media/signl.dc37ec019d05aca232b8.png",
+    "static/media/webphoto.png": "/reebxu459.github.io/static/media/webphoto.de976524b25a35a6b988.png",
+    "static/media/hereicrumb.png": "/reebxu459.github.io/static/media/hereicrumb.b019c1f9568d5e16b81e.png",
+    "static/media/me.JPG": "/reebxu459.github.io/static/media/me.42be8f1529dc02865b72.JPG",
+    "static/media/RebeccaResume.pdf": "/reebxu459.github.io/static/media/RebeccaResume.3e095f5373cc7559d32e.pdf",
+    "static/media/soup.gif": "/reebxu459.github.io/static/media/soup.6e9507b86511713dd747.gif",
+    "index.html": "/reebxu459.github.io/index.html",
+    "main.b517e429.css.map": "/reebxu459.github.io/static/css/main.b517e429.css.map",
+    "main.f7185ab1.js.map": "/reebxu459.github.io/static/js/main.f7185ab1.js.map"
   },
   "entrypoints": [
     "static/css/main.b517e429.css",
-    "static/js/main.294693b7.js"
+    "static/js/main.f7185ab1.js"
   ]
 }
