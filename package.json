@@ -2,7 +2,7 @@
   "homepage": "http://reebxu459.github.io/react-personalweb",
   "name": "react-portfolio",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
   "dependencies": {
     "@react-spring/parallax": "^9.6.1",
     "@testing-library/jest-dom": "^5.16.5",
